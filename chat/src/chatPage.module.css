@@ -1,0 +1,149 @@
+.container
+{
+    margin-top: 50px ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    width: 1100px;
+    height: 750px;
+
+    background-color: #ffffff;
+
+    border-radius: 15px;
+    box-shadow: 4px 2px 8px rgba(82, 82, 82, 0.4);
+}
+.chatContainer
+{   
+    display: flex;
+    flex-direction: column;
+
+    width: 600px;
+    height: 550px;
+
+    background-color: #e6e6e6;
+
+    border-radius: 5px;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.sendMessage
+{
+    margin-top: 4px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    width: 600px;
+    height: 50px;
+
+    background-color: #e6e6e6;
+
+    border-radius: 5px;
+}
+.inputMessage
+{
+    display: block;
+
+    width: 550px;
+    height: 30px;
+    margin-left: 5px;
+
+    background-color: #ffffff;
+    color: #000000;
+    outline: none;
+
+    border-radius: 5px;
+    border: none;
+}
+.buttonMessage
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 120px;
+    height: 30px;
+    margin: 10px;
+
+    background-color: #E53935;
+    color: #ffffff;
+
+    border-radius: 5px;
+    border: none;
+}
+.buttonMessage:hover
+{
+    background-color: #C62828;
+}
+.nameInputContainer
+{
+    display: flex;
+
+    width: 80px;
+    height: 35px;
+
+    position: relative;
+    top: 160px;
+    left: 30px;
+}
+.nameInput
+{
+    color: #000000;
+    background-color: #ffffff;
+
+    border-radius: 5px;
+    border: #000000 1px solid;
+}
+.message
+{
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    gap: 4px;
+
+    max-width: 60%;
+    margin: 8px;
+    padding: 10px 15px;
+
+    border-radius: 15px;
+
+    font-size: 14px;
+    color: #000000;
+    background-color: #ffffff;
+
+    word-wrap: break-word;
+}
+.messageYou
+{
+    display: flex;
+    align-self: flex-end;
+    flex-direction: column;
+    gap: 4px;
+
+    max-width: 60%;
+    margin: 8px;
+    padding: 10px 15px;
+
+    border-radius: 15px;
+
+    font-size: 14px;
+    color: #000000;
+    background-color: #7d70ac;
+
+    word-wrap: break-word;
+}
+.sender
+{
+    align-self: flex-start;
+    font-weight: bold;
+}
+.senderYou
+{
+    align-self: flex-end;
+    font-weight: bold;
+}
